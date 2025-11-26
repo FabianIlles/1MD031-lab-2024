@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="public/css/style.css">
     <meta charset="utf-8" />
     <title>BurgerHeaven Online</title>
 </head>
@@ -9,63 +10,63 @@
 <body>
 
     <header>
-        <h1>Burgers Online</h1>
+        <h1>Welcome to Burgers Online</h1>
+        <img src="https://studyinsweden.se/transformations/2017/10/bar-2209813_1920-1.jpg-992x.jpg"
+            alt="restaurant interior">
     </header>
 
     <main>
 
 
-        <section>
+        <section id="burgers">
+
             <h2>Select burger</h2>
             <p>This is where you execute burger selection</p>
 
+            <div class="burger-grid">
 
-            <div style="display: inline-block; margin-right:20px;">
+                <div class="burger-item">
+                    <h3>The Fire Burger</h3>
+                    <img src="https://s7d1.scene7.com/is/image/mcdonalds/mcd-sv-products-burgers-hamburger-NEW:product-header-desktop?wid=829&hei=455&dpr=off"
+                        alt="The Fire Burger">
+                    <ul>
+                        <li>Kobe beef of the highest quality</li>
+                        <li>Covered in fancy cheese (contains <span class="allergen">lactose</span>)</li>
+                        <li>Sourdough bun (contains <span class="allergen">gluten</span>)</li>
+                    </ul>
+                </div>
 
-                <h3>The Fire Burger</h3>
+                <div class="burger-item">
+                    <h3>Fried Turkey Burger</h3>
+                    <img src="https://keviniscooking.com/wp-content/uploads/2022/02/Grilled-Turkey-Burgers-square.jpg"
+                        alt="The Fire Burger">
+                    <ul>
+                        <li>Deep fried turkey</li>
+                        <li>Gluten-free bun (<span class="allergen">gluten free</span>)</li>
+                        <li>Shake-n-bake breading(<span class="allergen">gluten free</span>)</li>
+                    </ul>
+                </div>
 
-                <img src="https://s7d1.scene7.com/is/image/mcdonalds/mcd-sv-products-burgers-hamburger-NEW:product-header-desktop?wid=829&hei=455&dpr=off"
-                    style="width:250px;" alt="The Fire Burger">
+                <div class="burger-item">
+                    <h3>A Double w/ Cheese</h3>
+                    <img src="https://s7d1.scene7.com/is/image/mcdonalds/mcd-sv-products-burgers-double-cheeseburger-NEW:product-header-desktop?wid=829&hei=455&dpr=off"
+                        alt="The Fire Burger">
+                    <ul>
+                        <li>Two layers of pure meat</li>
+                        <li>Lots of cheese (contains <span class="allergen">lactose</span>)</li>
+                        <li>Sweet bread bun (contains <span class="allergen">gluten</span>)</li>
+                    </ul>
+                </div>
 
-                <ul>
-                    <li>Kobe beef of the highest quality</li>
-                    <li>Covered in fancy cheese (contains lactose)</li>
-                    <li>Sourdough bun (contains gluten)</li>
-                </ul>
             </div>
 
-            <div style="display: inline-block; margin-right:20px;">
-
-                <h3>Fried Turkey Burger</h3>
-
-                <img src="https://keviniscooking.com/wp-content/uploads/2022/02/Grilled-Turkey-Burgers-square.jpg"
-                    style="width:250px;" alt="The Fire Burger">
-
-                <ul>
-                    <li>Deep fried turkey</li>
-                    <li>Gluten-free bun</li>
-                    <li>Shake-n-bake gluten-free breading</li>
-                </ul>
-            </div>
-
-            <div style="display: inline-block; margin-right:20px;">
-
-                <h3>A Double w/ Cheese</h3>
-
-                <img src="https://s7d1.scene7.com/is/image/mcdonalds/mcd-sv-products-burgers-double-cheeseburger-NEW:product-header-desktop?wid=829&hei=455&dpr=off"
-                    style="width:250px;" alt="The Fire Burger">
-
-                <ul>
-                    <li>Two layers of pure meat</li>
-                    <li>Lots of cheese (contains lactose)</li>
-                    <li>Sweet bread bun (contains gluten)</li>
-                </ul>
-            </div>
         </section>
 
 
-  
-        <section>
+
+
+        <section id="customer">
+
             <h2>Customer information</h2>
             <p>This is where you provide necessary information</p>
 
@@ -120,8 +121,8 @@
             </form>
         </section>
 
-        <button type="button" style="padding:10px; margin-top:20px;">
-            <img src="https://cdn.pixabay.com/photo/2016/03/31/14/37/check-mark-1292787_1280.png" 
+        <button type="button" >
+            <img src="https://cdn.pixabay.com/photo/2016/03/31/14/37/check-mark-1292787_1280.png"
                 style="width:20px; vertical-align:middle; margin-right:5px;">
             Place Order
         </button>
