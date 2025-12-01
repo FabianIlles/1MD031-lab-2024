@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="public/css/style.css">
+    <meta charset="utf-8" />
+    <title>BurgerHeaven Online</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to Burgers Online</h1>
+        <img src="https://studyinsweden.se/transformations/2017/10/bar-2209813_1920-1.jpg-992x.jpg"
+            alt="restaurant interior">
+    </header>
+
+    <main>
+
+
+        <section id="burgers">
+
+            <h2>Select burger</h2>
+            <p>This is where you execute burger selection</p>
+
+            <div class="burger-grid">
+
+                <div class="burger-item">
+                    <h3>The Fire Burger</h3>
+                    <img src="https://s7d1.scene7.com/is/image/mcdonalds/mcd-sv-products-burgers-hamburger-NEW:product-header-desktop?wid=829&hei=455&dpr=off"
+                        alt="The Fire Burger">
+                    <ul>
+                        <li>Kobe beef of the highest quality</li>
+                        <li>Covered in fancy cheese (contains <span class="allergen">lactose</span>)</li>
+                        <li>Sourdough bun (contains <span class="allergen">gluten</span>)</li>
+                    </ul>
+                </div>
+
+                <div class="burger-item">
+                    <h3>Fried Turkey Burger</h3>
+                    <img src="https://keviniscooking.com/wp-content/uploads/2022/02/Grilled-Turkey-Burgers-square.jpg"
+                        alt="The Fire Burger">
+                    <ul>
+                        <li>Deep fried turkey</li>
+                        <li>Gluten-free bun (<span class="allergen">gluten free</span>)</li>
+                        <li>Shake-n-bake breading(<span class="allergen">gluten free</span>)</li>
+                    </ul>
+                </div>
+
+                <div class="burger-item">
+                    <h3>A Double w/ Cheese</h3>
+                    <img src="https://s7d1.scene7.com/is/image/mcdonalds/mcd-sv-products-burgers-double-cheeseburger-NEW:product-header-desktop?wid=829&hei=455&dpr=off"
+                        alt="The Fire Burger">
+                    <ul>
+                        <li>Two layers of pure meat</li>
+                        <li>Lots of cheese (contains <span class="allergen">lactose</span>)</li>
+                        <li>Sweet bread bun (contains <span class="allergen">gluten</span>)</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+        <section id="customer">
+
+            <h2>Customer information</h2>
+            <p>This is where you provide necessary information</p>
+
+            <h3>Delivery information:</h3>
+
+            <form>
+                <p>
+                    <label for="fullname">Full name</label><br>
+                    <input type="text" id="fullname" name="fullname" placeholder="First- and Last name">
+                </p>
+
+                <p>
+                    <label for="email">E-mail</label><br>
+                    <input type="email" id="email" name="email" placeholder="E-mail address">
+                </p>
+
+                <p>
+                    <label for="street">Street</label><br>
+                    <input type="text" id="street" name="street" placeholder="Street name">
+                </p>
+
+                <p>
+                    <label for="housenr">House</label><br>
+                    <input type="number" id="housenr" name="housenr" placeholder="House number">
+                </p>
+
+                <p>
+                    <label for="payment">Payment method</label><br>
+                    <select id="payment" name="payment">
+                        <option value="card" selected>Credit Card</option>
+                        <option value="swish">Swish</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="klarna">Klarna</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label>Gender</label><br>
+
+                    <input type="radio" id="male" name="gender" value="male" checked>
+                    <label for="male">Male</label><br>
+
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+
+                    <input type="radio" id="noinfo" name="gender" value="noinfo">
+                    <label for="noinfo">Do not wish to provide</label>
+                </p>
+
+
+
+            </form>
+        </section>
+
+        <button type="button" >
+            <img src="https://cdn.pixabay.com/photo/2016/03/31/14/37/check-mark-1292787_1280.png"
+                style="width:20px; vertical-align:middle; margin-right:5px;">
+            Place Order
+        </button>
+
+
+
+    </main>
+
+    <footer>
+        <p>© 2018 Hypothetical Burgers Inc.</p>
+    </footer>
+</body>
+
+</html>

@@ -1,21 +1,21 @@
 [{
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
+    "name": "The Fire Burger", 
+    "kCal": 2000, 
+    "url": "https://shared.cdn.smp.schibsted.com/v2/images/d8f8a2b6-ec55-4e93-807c-709c170343c4?fit=crop&h=750&w=1000&s=89bf942f6f4a5b6fb39246f6ba7cc026ee42464f",
+    "lactose": true, 
+    "gluten": true
+},
+{
+    "name": "Chicken Burger", 
+    "kCal": 900, 
+    "url": "https://i0.wp.com/flaevor.com/wp-content/uploads/2022/04/SambalFriedChickenBurger1.jpg?w=1080&ssl=1",
     "lactose": false, 
-    "gluten": false
+    "gluten": true
 },
 {
     "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
-},
-{
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
+    "kCal": 660, 
+    "url": "https://www.foodandwine.com/thmb/_hz1-1jxHmNJxNLZxIjlOs2QQ3E=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Ultimate-Veggie-Burgers-FT-Recipe-0821-5d7532c53a924a7298d2175cf1d4219f.jpg",
+    "lactose": true, 
     "gluten": false
 }]
